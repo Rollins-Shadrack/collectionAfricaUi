@@ -1,0 +1,85 @@
+.studentsLogin{
+    .studentsLoginBody{
+        background: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url('../../static/cal3.jpeg');
+        height: 90vh;     
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        background-position: center center;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .studentsCard{
+            width: 40%;
+            height: 40% fit-content;
+            background-color: rgb(247, 247, 238);
+            border-radius: 20px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            .top, .bottom{
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                padding: 15px;
+                margin: 20px;
+                background-color:rgba(254, 254, 254, 0.819);
+                h1{
+                    font-size: 22px;
+                    color:#6439ff ;
+                }
+            }
+
+            @media (min-width: 576px) and (max-width: 991.98px) {
+                width: 70%;
+            }
+            @media (max-width: 575.98px) {
+                 width: 100%;
+            }
+        }
+    }
+}
+
+.adminlogin{
+    .adminloginBody{
+        background: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url('../../static/cal4.jpeg');
+        height: 90vh;     
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        background-position: center center;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .adminCard{
+            width: 40%;
+            height: 40% fit-content;
+            background-color: rgb(247, 247, 238);
+            border-radius: 20px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            .top, .bottom{
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                padding: 15px;
+                margin: 20px;
+                background-color:rgba(254, 254, 254, 0.819);
+                h1{
+                    font-size: 22px;
+                    color:#6439ff ;
+                }
+            }
+
+            @media (min-width: 576px) and (max-width: 991.98px) {
+                width: 80%;
+                height: 60%;
+            }
+            @media (max-width: 575.98px) {
+                 width: 100%;
+                 height: 80%;
+            }
+        }
+    }
+}

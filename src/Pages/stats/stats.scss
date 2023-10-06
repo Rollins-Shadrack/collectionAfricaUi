@@ -1,0 +1,67 @@
+.SingleCourseStats{
+    display: flex;
+    overflow-y: hidden;
+    height: 100%;
+    ::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+      }
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #6439ff7e;
+        border-radius: 6px;
+      }
+
+    .SingleCourseStatsBody{
+        flex: 6;
+
+        .stats{
+            display: flex;
+
+            .CourseQuiz{
+                flex: 6;
+                height: 90vh;
+                overflow-y: scroll;
+                
+                h3{
+                    color: #6439ff;
+                    font-size: 20px;
+                }
+            }
+            .studentsEnrolled{
+                flex: 2;
+                height: inherit;
+                height: 90vh;
+                overflow-y: scroll;
+                
+                h3{
+                    color: #6439ff;
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .comments{
+                flex: 2;
+                height: inherit;
+                height: 90vh;
+                overflow-y: scroll;
+                
+                h3{
+                    color: #6439ff;
+                    font-size: 18px;
+                }
+
+            }
+
+            @media (min-width: 576px) and (max-width: 991.98px) {
+                flex-direction: column;
+            }
+            @media (max-width: 575.98px) {
+                flex-direction: column;
+            }
+        }
+    }
+}

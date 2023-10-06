@@ -1,0 +1,30 @@
+footer{
+    height: 50px fit-content;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+    .footer{
+        display: flex;
+        padding-top: 10px;
+        h1{
+            font-size: 22px;
+            font-weight: 400;
+            color: #6439ff;
+        }
+        .links{
+            padding: 0 20px;
+            .link{
+                padding: 0 20px;
+                text-decoration: none;
+                font-size: 18px;
+                color: #6439ff;
+            }
+        }
+        @media (min-width: 576px) and (max-width: 991.98px) {
+            flex-direction: column;
+        }
+        @media (max-width: 575.98px) {
+            flex-direction: column;
+        }
+    }
+}

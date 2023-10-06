@@ -1,0 +1,111 @@
+.home{
+    overflow-x: hidden;
+        .homeBody{
+            .slide1{
+                height: 70vh;
+                background:   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../static/cal1.jpeg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                background-position: center center;
+                overflow-x: hidden;
+
+                h3{
+                    color: #1f2de8;
+                }
+                p{
+                    color: #ffff;
+                }
+            }
+            .slide2{
+                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../static/cal2.jpeg');
+                height: 70vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                background-position: center center;
+                overflow-x: hidden;
+
+                h3{
+                    color: #1f2de8;
+                }
+                p{
+                    color: #ffff;
+                }
+            }
+            .slide3{
+                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../static/cal3.jpeg');
+                height: 70vh;
+                
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                background-position: center center;
+                overflow-x: hidden;
+
+                h3{
+                    color: #1f2de8;
+                }
+                p{
+                    color: #ffff;
+                }
+            }
+            .coursesBody{
+                margin-top: 20px;
+    
+                h3{
+                    font-size: 23px;
+                    font-weight: 700;
+                    color: #6439ff;
+                }
+    
+                .card{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    cursor: pointer;
+    
+                    .courseImage{
+                        padding: 20px;
+                        height: 180px;
+                        width: 220px;
+                        border-radius: 14px;
+                        
+                    }
+                    .cardBody{
+                        align-items: center;
+                        padding: 10px;
+    
+                        h4{
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: #6439ff;
+                        }
+                        .button{
+                            float: right;
+                        }
+                        .instructorPrice{
+                            display: flex;
+                            justify-content: space-between;
+
+                            .instructor{
+                                display: flex;
+                                flex-direction: column;
+                                p{
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    color: #6439ff;
+
+                                }
+                            }
+                            .coursePrice{
+                                margin-top: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+}

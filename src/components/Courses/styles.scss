@@ -1,0 +1,175 @@
+.payment{
+    display: flex;
+
+    .paymentBody{
+        flex: 6;
+    }
+}
+.coursesEnrolled{
+    display: flex;
+
+    .coursesEnrolledBody{
+        flex: 6;
+
+        .coursesNavbar{
+            display: flex;
+            justify-content: space-between;
+
+            .categoryAuthor{
+                display: flex;
+                .category{
+                    padding: 0 20px ;
+
+                    .Dropdown{
+                        position: absolute;
+                        top: 100%;
+                        left: 20px;
+                        background-color: #fff;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                        padding: 20px;
+                        z-index: 1;
+                        width: 180px;
+                        li {
+                            padding: 5px 10px;
+                            border-radius: 10px;
+                            transition: transform 0.2s ease-in-out; /* Add smooth transition */
+                          
+                            &:hover {
+                              background: #6439ff65;
+                              transform-origin: top left; /* Set the pivot point to the top-left corner of the element */
+                              transform: scale(0.95); /* Zoom out to 95% on hover */
+                            }
+                          }
+                    }
+                }
+                .author{
+                    padding: 0 20px ;
+
+                    .Dropdown{
+                        position: absolute;
+                        top: 100%;
+                        left: 20px;
+                        background-color: #fff;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                        padding: 20px;
+                        z-index: 1;
+                        width: 180px;
+
+                        li {
+                            padding: 5px 10px;
+                            border-radius: 10px;
+                            transition: transform 0.2s ease-in-out; /* Add smooth transition */
+                          
+                            &:hover {
+                              background: #6439ff65;
+                              transform-origin: top left; /* Set the pivot point to the top-left corner of the element */
+                              transform: scale(0.95); /* Zoom out to 95% on hover */
+                            }
+                          }
+                    }
+                }
+            }
+        }
+
+        .allcoursesBody{
+            margin-top: 20px;
+
+            h3{
+                font-size: 23px;
+                font-weight: 700;
+                color: #6439ff;
+            }
+
+            .card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                cursor: pointer;
+
+                .courseImage{
+                    padding: 20px;
+                    height: 160px;
+                    width: 200px;
+                    border-radius: 14px;
+                    
+                }
+                .cardBody{
+                    align-items: center;
+                    padding: 10px;
+
+                    p{
+                        font-size: 14px;
+                    }
+
+                    h4{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #6439ff;
+                    }
+                    .button{
+                        float: right;
+                    }
+                    .instructorPrice{
+                        display: flex;
+                        justify-content: space-between;
+
+                        .instructor{
+                            display: flex;
+                            flex-direction: column;
+                            p{
+                                font-size: 18px;
+                                font-weight: 400;
+                                color: #6439ff;
+
+                            }
+                        }
+                        .coursePrice{
+                            margin-top: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.studentQuizes{
+    display: flex;
+    height: 100%;
+
+    .studentQuizesBody{
+        flex: 6;
+
+        .quizBody{
+            display: flex;
+
+            .quizes{
+                flex: 2;
+            }
+            .exactQuizBody{
+                flex: 8;
+                height: 90%;
+                overflow-y: scroll;
+
+                h3{
+                    font-size: 20px;
+                    color: #6439ff;
+                }
+
+                h4{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.studentPerformance{
+    display: flex;
+
+    .studentPerformanceBody{
+        flex: 6;
+    }
+}

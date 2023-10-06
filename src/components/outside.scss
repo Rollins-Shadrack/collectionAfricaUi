@@ -1,0 +1,22 @@
+.GalleryModal{
+    height: 100vh;
+    h1{
+        font-size: 20px;
+        color: #6439ff;
+    }
+    .containBody{
+        display: flex;
+
+        .left, .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+
+}
